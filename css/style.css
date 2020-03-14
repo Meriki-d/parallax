@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+.images{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#img1{
+    background-image: url('../backgrounds/mountain.jpeg');
+    height: 100vh;  
+}
+#img2{
+    background-image: url('../backgrounds/dice.jpeg');
+    height: 400px;  
+}
+#img3{
+    background-image: url('../backgrounds/code.jpeg');
+    height: 100vh;  
+}
+#img4{
+    background-image: url('../backgrounds/drops.jpeg');
+    height: 400px;  
+}
+#img5{
+    background-image: url('../backgrounds/lightface.jpeg');
+    height: 100vh;  
+}
+
+.text{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: wheat;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 27px;
+}
